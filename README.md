@@ -134,6 +134,8 @@ bash
 Copy
 Edit
 python Command_line_arguments/exercise.py 12 8
+
+
 🧑‍💻 Author
 Faraaz khan
 
