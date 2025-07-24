@@ -1,145 +1,140 @@
-📘 Python Practice Projects & Exercises
-This repository contains categorized Python exercises and mini-projects designed for hands-on learning and practice. The topics range from basic syntax to exception handling, data structures, command line arguments, and more.
+# Wipro TalentNext Python
 
-🗂️ Directory Structure
-pgsql
-Copy
-Edit
-.
-├── Exceptional_handling/
-│   └── exercise.py
-├── Functions/
-│   ├── exercise.py
-│   ├── mini_project1.py
-│   └── mini_project2.py
-├── Data_structure/
-│   ├── lists.py
-│   ├── dictionary.py
-│   ├── tuple.py
-│   ├── set.py
-│   ├── string.py
-│   ├── mini_project1.py
-│   ├── mini_project2.py
-│   ├── mini_project3.py
-│   ├── mini_project4.py
-│   └── exercise.py
+This repository contains Python programs and mini projects aligned with the Wipro TalentNext curriculum. The content is structured into various modules covering fundamental and intermediate Python programming concepts.
+
+---
+
+## 📁 Directory Structure
+
+Wipro_TalentNext_Python/
+│
 ├── Command_line_arguments/
-│   ├── mini_project.py
-│   └── exercise.py
-📚 Module Breakdown
-✅ 1. Exceptional Handling
-File: Exceptional_handling/exercise.py
+│ ├── exercise.py
+│ └── mini_project.py
+│
+├── Data_structures/
+│ ├── dictionary.py
+│ ├── lists.py
+│ ├── set.py
+│ ├── string.py
+│ ├── tuple.py
+│ └── mini_project.py
+│
+├── Exceptional_handling/
+│ ├── exercise.py
+│ └── mini_project.py
+│
+├── Functions/
+│ ├── functions.py
+│ ├── string_utils.py
+│ └── mini_project.py
+│
+├── IO_operations/
+│ ├── exercise.py
+│ └── mini_project.py
+│
+├── Python_fundamentals/
+│ ├── exercise.py
+│ └── mini_project.py
+│
+└── README.md
 
-Covers:
 
-Division with exception handling
+---
 
-Prime check with input validation
+## 📦 Module Overview
 
-File reading with exception handling
+### 1. **Command_line_arguments**
+- `exercise.py`: Programs using command line inputs to display messages, calculate sums, and work with prime numbers.
+- `mini_project.py`: Computes "happiness" based on liked/disliked numbers passed via command line arguments.
 
-Index error handling in lists
+---
 
-✅ 2. Functions
-File: Functions/exercise.py
+### 2. **Data_structures**
 
-Covers:
+- `lists.py`: Operations such as reversing, appending, removing, inserting, and counting items in lists.
+- `dictionary.py`: Dictionary operations like adding keys, checking key existence, summing values, and iterating items.
+- `set.py`: Operations like union, intersection, min/max values, and removing elements from sets.
+- `tuple.py`: Indexing, element checking, tuple manipulation, and conversion from lists.
+- `string.py`: Programs for palindrome check, upper/lower case count, slicing, and string transformations.
+- `mini_project.py`: 
+  - `Project 1`: People and interesting facts dictionary manipulation.
+  - `Project 2`: Runner-up score finder.
+  - `Project 3`: Student marks average calculator using dictionary.
+  - `Project 4`: Count occurrences of the name "Alex" in a string.
 
-Sum of list elements
+---
 
-Reverse a string
+### 3. **Exceptional_handling**
 
-Factorial calculation
+- `exercise.py`: Programs handling errors in division, file handling, prime checking, and list indexing.
+- `mini_project.py`: Supermarket purchase summary using exception handling (item count, free items, discount, final price).
 
-Counting uppercase and lowercase characters
+---
 
-Printing even numbers from a list
+### 4. **Functions**
 
-Prime number check
+- `functions.py`: 
+  - Sum of list
+  - String reverse
+  - Factorial
+  - Prime check
+  - Even number extractor
+  - Upper/lower case counter
+- `string_utils.py`: Contains reusable functions like:
+  - `ispalindrome(name)`
+  - `count_the_vowels(name)`
+  - `frequency_of_letters(name)`
+- `mini_project.py`: 
+  - `Project 1`: Sorts a hyphen-separated list of colors alphabetically.
+  - `Project 2`: Uses functions to analyze a user’s name for palindrome, vowels, and character frequency.
 
-🔹 Mini Project 1 — mini_project1.py
-Sorts hyphen-separated colors alphabetically
+---
 
-🔹 Mini Project 2 — mini_project2.py
-Palindrome check
+### 5. **IO_operations**
 
-Vowel count
+- `exercise.py`: File reading, writing, appending, and copying with basic file operations.
+- `mini_project.py`: Reads a purchase text file, extracts item prices, and computes totals and discounts.
 
-Letter frequency analysis
+---
 
-✅ 3. Data Structures
-📄 lists.py
-Basic list operations: creation, indexing, appending, reversing, inserting, deleting, and counting elements
+### 6. **Python_fundamentals**
 
-📄 dictionary.py
-Add, merge, iterate, sum values, and check key existence in dictionaries
+- `exercise.py`: Basic programs including input/output, arithmetic operations, and control flow (loops, conditions).
+- `mini_project.py`: A simple password-based login simulation or guessing game.
 
-📄 tuple.py
-Tuple operations: element access, existence check, list conversion, replacement inside lists
+---
 
-📄 set.py
-Set operations: union, intersection, max/min, and item removal
+## ✅ How to Run
 
-📄 string.py
-String manipulations:
+Each `.py` file is self-contained and can be run using:
 
-Case count
-
-Palindrome check
-
-Substring repetition
-
-Trimming characters
-
-Advanced slicing
-
-🔹 Mini Project 1 — mini_project1.py
-Maintain and update a dictionary of people and their facts
-
-🔹 Mini Project 2 — mini_project2.py
-Find the runner-up score in a list of scores
-
-🔹 Mini Project 3 — mini_project3.py
-Student gradebook with average percentage calculation
-
-🔹 Mini Project 4 — mini_project4.py
-Count occurrences of the name "Alex" in a string
-
-📄 exercise.py
-Command line input-based programs
-
-✅ 4. Command Line Arguments
-📄 exercise.py
-Accept and sum two numbers via command line
-
-Display welcome message and file name
-
-Sum of prime numbers from 10 command-line arguments
-
-🔹 Mini Project — mini_project.py
-Compute happiness score based on liked/disliked numbers from three command-line strings
-
-🚀 How to Run
-Make sure you have Python 3 installed.
-
-Run any file using:
-
-bash
-Copy
-Edit
-python path/to/script.py
-For command line argument scripts, pass arguments accordingly:
+```bash
+python <filename.py>
+For command line argument scripts, use:
 
 bash
 Copy
 Edit
-python Command_line_arguments/exercise.py 12 8
+python mini_project.py arg1 arg2 arg3
+Example:
 
+bash
+Copy
+Edit
+python mini_project.py 3-1 5-7 1-5-3-8
+🧠 Learning Outcomes
+Grasp of Python fundamentals and syntax.
+
+Hands-on with functions, lists, dictionaries, sets, and tuples.
+
+Working knowledge of exception handling and file operations.
+
+Understanding of modular and reusable code practices.
+
+Basic command line interface programming.
 
 🧑‍💻 Author
-Faraaz khan
+Faraaz Khan
+Wipro TalentNext Training
 
-[GitHub Profile Link](https://github.com/MDFaraaz07)
-
-📜 License
-This project is open-source and free to use under the MIT License.
